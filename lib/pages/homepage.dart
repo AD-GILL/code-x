@@ -1,5 +1,11 @@
+import 'package:code_x/pages/description.dart';
 import 'package:code_x/pages/drawer.dart';
+import 'package:code_x/pages/feedcontainer.dart';
 import 'package:code_x/pages/header.dart';
+import 'package:code_x/pages/mode.dart';
+import 'package:code_x/pages/persondoc.dart';
+import 'package:code_x/pages/rank.dart';
+import 'package:code_x/pages/storycontainer.dart';
 import 'package:code_x/pages/userprofilepicture.dart';
 import 'package:flutter/material.dart';
 import 'background.dart';
@@ -27,6 +33,12 @@ class _HomePageState extends State<HomePage> {
           Header(),
           MyDrawer(),
           UserProfile(),
+          StoryContainer(),
+          FeedContainer(),
+          Description(),
+          PersonalInfoDoc(),
+          Rank(),
+          FeedMode()
         ],
       ),
     );
